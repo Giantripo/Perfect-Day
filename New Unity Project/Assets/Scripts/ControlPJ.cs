@@ -29,4 +29,6 @@ public class ControlPJ : MonoBehaviour
             pll.SetActive(true);
         }
     }
+
+
 }
