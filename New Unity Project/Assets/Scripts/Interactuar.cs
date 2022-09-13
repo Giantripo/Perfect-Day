@@ -23,7 +23,7 @@ public class Interactuar : MonoBehaviour
             if (hit.collider.tag == "ObjetoInteractivo")
             {
                 Debug.Log("estoy tocando");
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
                     hit.collider.transform.GetComponent<InterruptorLuz>().PrenderApagarLuz();
                 }
